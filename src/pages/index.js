@@ -7,12 +7,14 @@ import CreateContainer from "@/containers/create"
 
 export default function Home() {
 
-  const { crosswordList, saveApikey, apiKey , removeItem} = useContext(PuzzleGeneratorContext)
+  const { crosswordList, saveApikey, apiKey, removeItem } = useContext(PuzzleGeneratorContext)
 
   const [selected, setSelected] = useState()
   const [showApiModal, setShowApiModal] = useState(false);
 
   const [key, setKey] = useState(apiKey)
+
+   
 
   useEffect(() => {
     apiKey && setKey(apiKey)

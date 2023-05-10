@@ -152,7 +152,7 @@ const CreateContainer = () => {
                             <tbody>
                                 {outputWordList.map((item, index) => {
                                     return (
-                                        <tr class="border-b">
+                                        <tr key={index} class="border-b">
                                             <th scope="row" class="p-2">
                                                 #{index + 1}
                                             </th>

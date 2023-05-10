@@ -25,7 +25,7 @@ export default function Home() {
   const onSave = useCallback(() => {
     saveApikey(key)
     setShowApiModal(false)
-  }, [key])
+  }, [key, saveApikey])
 
 
   return (
@@ -47,7 +47,7 @@ export default function Home() {
                 <h2 class="text-xl font-semibold mb-2">All Crosswords</h2>
                 <div class="text-sm">
                   {crosswordList.map((item, index) => (
-                    <div class="grid grid-cols-11">
+                    <div key={index} class="grid grid-cols-11">
                       <div onClick={() => setSelected(item.name)} class={`p-4  col-span-10 rounded-lg cursor-pointer ${selected === item.name && "bg-gray-700 "}`}>
                         <h3 class="font-semibold">{item.name}</h3>
                         <p>{item.description}</p>

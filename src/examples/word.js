@@ -1,0 +1,10 @@
+
+
+const word = {
+    "name": "Word Explorer",
+    "description": "Example with basic words",
+    "words": ["apple", "banana", "butterfly", "caterpillar", "dinosaur", "elephant", "firefly", "giraffe", "hippopotamus", "insect", "jungle", "kangaroo", "lion", "monkey", "ninja", "octopus", "penguin", "queen", "rabbit", "sunflower", "turtle", "unicorn", "volcano", "whale", "xylophone", "yak", "zebra", "acorn", "beaver", "carrot", "dolphin", "eggplant", "frog", "grape", "hedgehog", "ice cream", "jellyfish", "kite", "lemon"],
+    "clues": ["Fruit commonly associated with tech giant", "Long, yellow fruit", "Insect with colorful wings", "Larval form of a butterfly or moth", "Extinct reptile that lived millions of years ago", "Large mammal with a long trunk", "Insect that produces light at night", "Tall animal with a spotted coat", "Large, semi-aquatic mammal with a massive jaw", "Small, many-legged creature", "Tropical forest with dense vegetation", "Australian marsupial that hops", "Large, predatory feline with a mane", "Primate known for its agility", "Japanese warrior known for stealth", "Marine animal with eight tentacles", "Flightless bird that lives in the Antarctic", "Female ruler of a kingdom", "Small, furry mammal that hops and eats carrots", "Bright yellow flower that turns towards the sun", "Reptile with a hard protective shell", "Mythical horse with a horn on its forehead", "Mountain that erupts lava and ash", "Giant mammal that lives in the ocean", "Musical instrument with wooden bars", "Large, woolly mammal that lives in the Himalayas", "African animal with black and white stripes", "Nut that comes from an oak tree", "Semi-aquatic rodent known for building dams", "Vegetable that rabbits like to eat", "Marine mammal known for its intelligence", "Purple vegetable with a spongy texture", "Amphibian that jumps and croaks", "Small, sweet fruit that grows in clusters", "Small animal covered in sharp spines", "Frozen dessert made from milk and sugar", "Marine animal with a gelatinous body", "Toy that flies in the wind", "Sour citrus fruit"]
+}
+
+export default word

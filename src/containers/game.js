@@ -72,7 +72,7 @@ const GameContainer = ({ selected }) => {
                                                                 return arr
                                                             }, []))
                                                         }}
-                                                        // onChange={(e) => updatePos(e.target.value, index)}
+                                                        onChange={(e) => updatePos(e.target.value, index)}
                                                         value={cell.toUpperCase()}
                                                         type="text"
                                                         className={`w-full h-full text-black text-center outline-none ${game.solved.includes(index) && "underline"}`}

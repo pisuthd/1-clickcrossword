@@ -114,25 +114,26 @@ const CreateContainer = () => {
                         <div className="grid grid-cols-7 p-2 gap-3">
                             <div class="col-span-3">
                                 <label class="block text-sm font-medium text-gray-300">Types</label>
-                                {/* <input placeholder="common words" onChange={(e) => setTypes(e.target.value)} class="mt-1 block w-full py-2 px-3 border border-gray-700 bg-gray-900 text-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-base" type="text" /> */}
+                                <input placeholder="common words" onChange={(e) => setTypes(e.target.value)} class="mt-1 block w-full py-2 px-3 border border-gray-700 bg-gray-900 text-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-base" type="text" />
                                 <p class=" text-gray-300 mt-1 text-xs">
                                     Ex. cities name,  characters name
                                 </p>
                             </div>
                             <div class="col-span-3">
                                 <label class="block text-sm font-medium text-gray-300">Topic</label>
-                                {/* <input placeholder="the Matrix movies" onChange={(e) => setTopic(e.target.value)} class="mt-1 block w-full py-2 px-3 border border-gray-700 bg-gray-900 text-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-base" type="text" /> */}
+                                <input placeholder="the Matrix movies" onChange={(e) => setTopic(e.target.value)} class="mt-1 block w-full py-2 px-3 border border-gray-700 bg-gray-900 text-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-base" type="text" />
                                 <p class=" text-gray-300 mt-1 text-xs">
                                     Ex. Bitcoin whitepaper, children book
                                 </p>
                             </div>
                             <div class="col-span-1">
                                 <label class="block text-sm font-medium text-gray-300">Words</label>
-                                {/* <select value={total} onChange={(e) => setTotal(e.target.value)} class="mt-1 block w-full py-2 px-3 border border-gray-700 bg-gray-900 text-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-base">
+                                <select value={total} onChange={(e) => setTotal(e.target.value)} class="mt-1 block w-full py-2 px-3 border border-gray-700 bg-gray-900 text-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-base">
                                     <option value="60">60</option>
                                     <option value="40">40</option>
-                                    <option value="20">20</option> 
-                                </select> */}
+                                    <option value="20">20</option>
+                                    {/* <option value="10">10</option> */}
+                                </select>
                             </div>
                         </div>
                     </div>
@@ -190,11 +191,11 @@ const CreateContainer = () => {
                                 <div class="grid grid-cols-3 gap-2">
                                     <div class="col-span-1">
                                         <label for="apiKey" class="block text-sm font-medium text-gray-300">Name</label>
-                                        {/* <input value={puzzleName} placeholder="Fun Puzzle" onChange={(e) => setPuzzleName(e.target.value)} class="mt-1 block w-full py-2 px-3 border border-gray-700 bg-gray-900 text-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-base" type="text" /> */}
+                                        <input value={puzzleName} placeholder="Fun Puzzle" onChange={(e) => setPuzzleName(e.target.value)} class="mt-1 block w-full py-2 px-3 border border-gray-700 bg-gray-900 text-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-base" type="text" />
                                     </div>
                                     <div class="col-span-2">
                                         <label for="apiKey" class="block text-sm font-medium text-gray-300">Short Description</label>
-                                        {/* <input value={puzzleDetails} onChange={(e) => setPuzzleDetails(e.target.value)} class="mt-1 block w-full py-2 px-3 border border-gray-700 bg-gray-900 text-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-base" type="text" /> */}
+                                        <input value={puzzleDetails} onChange={(e) => setPuzzleDetails(e.target.value)} class="mt-1 block w-full py-2 px-3 border border-gray-700 bg-gray-900 text-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-base" type="text" />
 
                                     </div>
                                 </div>

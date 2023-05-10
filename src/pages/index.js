@@ -97,7 +97,7 @@ export default function Home() {
             <div>
               <div class="mt-4 mb-4">
                 <label for="apiKey" class="block text-sm font-medium text-gray-300">Your OpenAI API Key</label>
-                {/* <input value={key} placeholder="sk-..." id="apiKey" onChange={(e) => setKey(e.target.value)} class="mt-1 block w-full py-2 px-3 border border-gray-700 bg-gray-900 text-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-base" type="text" /> */}
+                <input value={key} placeholder="sk-..." id="apiKey" onChange={(e) => setKey(e.target.value)} class="mt-1 block w-full py-2 px-3 border border-gray-700 bg-gray-900 text-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-base" type="text" />
                 <p class=" text-gray-300 mt-1 text-xs">The key will be saved on your browser and use it on your own risk</p>
               </div>
               <div class="flex justify-end">

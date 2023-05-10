@@ -136,7 +136,7 @@ const Provider = ({ children }) => {
         })
     }, [crosswordList])
 
-    const execute = useCallback(async (prompt, temperature = 0.5, maxTokens = 1000) => {
+    const execute = useCallback(async (prompt, temperature = 0.5, maxTokens = 2000) => {
         // Configure OpenAI
         const configuration = new Configuration({
             apiKey,

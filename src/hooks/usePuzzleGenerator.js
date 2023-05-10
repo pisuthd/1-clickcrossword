@@ -26,26 +26,26 @@ const Provider = ({ children }) => {
 
     const { crosswordList, game, apiKey } = values
 
-    useEffect(() => {
+    // useEffect(() => {
 
-        let fromLocalStorage
+    //     let fromLocalStorage
 
-        if (localStorage.getItem("puzzles")) {
-            fromLocalStorage = localStorage.getItem("puzzles")
-            fromLocalStorage = JSON.parse(fromLocalStorage)
-        }
+    //     if (localStorage.getItem("puzzles")) {
+    //         fromLocalStorage = localStorage.getItem("puzzles")
+    //         fromLocalStorage = JSON.parse(fromLocalStorage)
+    //     }
 
-        dispatch({
-            crosswordList: [Word, Crypto, Cities, ...fromLocalStorage]
-        })
+    //     dispatch({
+    //         crosswordList: [Word, Crypto, Cities, ...fromLocalStorage]
+    //     })
 
-        if (localStorage.getItem("openai_api")) {
-            dispatch({
-                apiKey: localStorage.getItem("openai_api")
-            })
-        }
+    //     if (localStorage.getItem("openai_api")) {
+    //         dispatch({
+    //             apiKey: localStorage.getItem("openai_api")
+    //         })
+    //     }
 
-    }, [])
+    // }, [])
 
     const updatePos = useCallback((text, position) => {
 
